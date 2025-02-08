@@ -1,5 +1,5 @@
 # Ignore Pickle files
-movie_list.pkl
+similarity.pkl
 
 # Ignore Docker files
 Dockerfile
