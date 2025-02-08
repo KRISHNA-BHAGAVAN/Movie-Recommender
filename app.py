@@ -41,7 +41,7 @@ def recommend(movie):
 
     return recommended_movie_names, recommended_movie_posters
 
-st.header('🎬 Movie Recommender System')
+st.header('🎬 Movie Recommendation System')
 movie_list = movies['title'].values
 selected_movie = st.selectbox("🔍 Type or select a movie:", movie_list)
 
